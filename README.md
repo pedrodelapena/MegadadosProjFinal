@@ -1,6 +1,6 @@
 # MegadadosProjFinal
 
-<bold> Por Alexande Young, Jean Luca e Pedro de la Peña </bold>
+<strong> Por Alexande Young, Jean Luca e Pedro de la Peña </strong>
 
 <header> A proposta </header>
 
