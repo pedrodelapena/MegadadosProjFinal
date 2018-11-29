@@ -25,7 +25,7 @@ A partir da máscara de bits, foi treinada uma inteligencia artificial básica (
 
 ![aa](img/algorithm.png)
 
-Após treinada, a inteligencia artificial percorreu 10 mil amostras aleatórias e classificou 87 delas como supostos sites de receita. O algorítmo de classificação realiza uma conta de probabilidade para cada palavra de cada site, multiplicando o valor do contador dependendo do resultado das ocorrencias da palavra (relacionadas a receita ou não). Caso o contador fosse maior para um site de receitas, a palavra tem bastante chance de fazer parte de um site deste tipo.  Contudo, em alguns casos existem algumas "aberrações" como sites com caracteres não antes utilizados nos demais, e desta forma, segundo as condições de análise e julgamento da inteligência artificial, o valor de relevancia (de que o site de fato era um site de receitas).  
+Após treinada, a inteligencia artificial percorreu 10 mil amostras aleatórias e classificou 87 delas como supostos sites de receita. O algorítmo de classificação realiza uma conta de probabilidade para cada palavra de cada site, multiplicando o valor do contador dependendo do resultado das ocorrencias da palavra (relacionadas a receita ou não). Caso o contador fosse maior para um site de receitas, a palavra tem bastante chance de fazer parte de um site deste tipo.  Contudo, em alguns casos existem algumas "aberrações" como sites com caracteres não antes utilizados nos demais, e desta forma, segundo as condições de análise e julgamento da inteligência artificial, o valor de relevancia (de que o site de fato era um site de receitas) era maior que o outro fator (não é de receitas).  
 
 ![aa](img/aberracao.png)
 
