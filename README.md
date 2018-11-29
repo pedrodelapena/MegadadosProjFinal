@@ -19,7 +19,7 @@ Inicialmente, foi carregado um fragmento do Crawl da Web Brasil (disponibilizado
 
 Com o intuito de classificar sites automaticamente como "site de receita" e "outros", o grupo selecionou 100 amostras aleatórias do fragmento, porém que continham a palavra "receita" em algum ponto do site. A partir desses dados, o grupo analisou manualmente cada um desses 100 sites localmente em um [Jupyter Notebook](/manualfilter.ipynb), para confirmar quantos realmente eram de receita e quantos eram <i>falsos positivos</i>. A partir dessa análise, foram contados 53 sites de receita para 47 falsos positivos e uma máscara de bits foi gerada com base nessas informações.
 
-![pythonnotebook](aa)
+![img/pythonnotebook](aa)
 
 A partir da máscara de bits, foi treinada uma inteligencia artificial básica que decidia se um site era de receitas ou não com base em seu conteúdo. Foram ignoradas palavras com mais de 15 caracteres e também pequenas para não considerar palavras de conexão (e, a, um, ou, de). As primeiras 100 palavras do site foram consideradas para a análise, pois se o site é realmente de receitas, palavras chave relacionadas ao assunto estarão dispostas logo no começo da página. 
 
