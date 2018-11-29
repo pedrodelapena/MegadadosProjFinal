@@ -21,10 +21,11 @@ Com o intuito de classificar sites automaticamente como "site de receita" e "out
 
 ![pythonnotebook](aa)
 
-A partir da máscara de bits, foi treinada uma inteligencia artificial básica que decidia se um site era de receitas ou não com base em seu conteúdo. Foram ignoradas palavras com mais de 15 caracteres e também pequenas para não considerar palavras de conexão (e, a, um, ou, de). As primeiras 100 palavras do site foram consideradas para a análise, pois se o site é realmente de receitas, palavras chave relacionadas ao assunto estarão dispostas logo no começo da página. (explicar um pouco mais a fundo o algoritmo)
+A partir da máscara de bits, foi treinada uma inteligencia artificial básica que decidia se um site era de receitas ou não com base em seu conteúdo. Foram ignoradas palavras com mais de 15 caracteres e também pequenas para não considerar palavras de conexão (e, a, um, ou, de). As primeiras 100 palavras do site foram consideradas para a análise, pois se o site é realmente de receitas, palavras chave relacionadas ao assunto estarão dispostas logo no começo da página. 
 
 ![spark1](aa)
 
+Após treinada, a inteligencia artificial percorreu, então 10 mil amostras aleatórias 
 
 
 
